@@ -1,2 +1,3 @@
-# comparative-ml-modeling
-A comparison of machine learning models across different data constraints and problem formulations, documenting practical engineering trade-offs.
+# Comparative Machine Learning Modeling
+
+Exploring how different dataset characteristics influence model selection. This project focuses on real-world trade-offs and decision-making across distinct problem types.
