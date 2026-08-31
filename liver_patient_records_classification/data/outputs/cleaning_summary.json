@@ -1,0 +1,21 @@
+{
+  "raw_shape": [
+    583,
+    11
+  ],
+  "after_dedup": [
+    570,
+    11
+  ],
+  "duplicates_removed": 13,
+  "missing_after_dedup": 4,
+  "invalid_direct_gt_total": 3,
+  "class_balance": {
+    "1": 406,
+    "2": 164
+  },
+  "gender_balance": {
+    "Male": 430,
+    "Female": 140
+  }
+}
