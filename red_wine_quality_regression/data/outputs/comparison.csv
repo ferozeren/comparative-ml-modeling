@@ -1,0 +1,7 @@
+model,CV_RMSE,CV_RMSE_std,CV_MAE,CV_R2,CV_R2_std,test_RMSE,test_MAE,test_R2,when_to_pick
+RandomForest,0.6583,0.0296,0.5066,0.3416,0.0527,0.6182,0.468,0.4604,Many trees vote - pick it when the lowest error matters more than a simple explanation.
+Linear,0.6684,0.0267,0.5175,0.3209,0.0537,0.6565,0.5041,0.3915,"One coefficient per measurement, easy to read - pick it when direction of effect matters most."
+KNN(k=5),0.7132,0.0414,0.5431,0.2276,0.0659,0.7129,0.5397,0.2825,Copies the average of 5 nearest wines - pick it only when scaling is careful and features stay few.
+SVR_rbf,0.7232,0.0333,0.5481,0.2057,0.0591,0.6924,0.5166,0.3232,Fits a curved surface and ignores small errors - pick it when tuning time is available.
+DecisionTree,0.7604,0.0454,0.5645,0.1206,0.0925,0.6711,0.5036,0.3643,A flowchart of threshold rules - pick it when you need to show exactly how a score was reached.
+Baseline(mean),0.8179,0.0529,0.6916,-0.0108,0.0094,0.8443,0.7049,-0.0063,Always predicts the average score - the bar every real model has to clear.

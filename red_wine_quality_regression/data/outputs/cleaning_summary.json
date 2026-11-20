@@ -1,0 +1,22 @@
+{
+  "raw_shape": [
+    1599,
+    12
+  ],
+  "after_dedup": [
+    1359,
+    12
+  ],
+  "duplicates_removed": 240,
+  "missing_cells": 0,
+  "invalid_free_gt_total": 0,
+  "quality_distribution": {
+    "3": 10,
+    "4": 53,
+    "5": 577,
+    "6": 535,
+    "7": 167,
+    "8": 17
+  },
+  "quality_mean": 5.623
+}
